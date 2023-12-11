@@ -31,7 +31,6 @@ public class Main {
 //        ApplicationContext context = SpringApplication.run(Main.class, args);
 //        service = context.getBean(AnimalService.class);
         service = new AnotherAnimalService();
-        System.out.println("Hello world!");
         int switcher = -1;
         while(switcher != 0){
             System.out.println(MENU);
